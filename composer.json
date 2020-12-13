@@ -15,7 +15,7 @@
   "require": {
     "php": "^7.3",
     "symfony/dotenv": "^5.1",
-    "bricks-framework/exception": "^0.1"
+    "bricks-framework/exception": "^0.1|dev-master"
   },
   "autoload": {
     "classmap": ["lib/"]

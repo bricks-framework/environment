@@ -1,0 +1,22 @@
+{
+  "name": "bricks-framework/environment",
+  "type": "bricks-framework",
+  "version": "0.1.0",
+  "description": "Bricks",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sven Ullmann",
+      "email": "kontakt@sumedia-webdesign.de"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "symfony/dotenv": "^5.1",
+    "bricks-framework/exception": "^0.1"
+  },
+  "autoload": {
+    "classmap": ["lib/"]
+  }
+}
